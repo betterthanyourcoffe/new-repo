@@ -132,7 +132,7 @@ const educationInfo = {
       duration: "January 2023 - May 2025",
       desc: "Dedicated and high-achieving student boasting a stellar 4.0 GPA while concurrently excelling in the role of Graduate Teaching Assistant",
       descBullets: [
-        "Data structures and algorithms,Object Oriented Programming in Python, Database Foundations for Business Analytics,System Analysis and Project Management"
+        "Data structures and algorithms, Object Oriented Programming in Python, Database Foundations for Business Analytics, System Analysis and Project Management"
       ]
     },
 
