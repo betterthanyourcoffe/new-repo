@@ -23,7 +23,7 @@ const greeting = {
   username: "Hemanth",
   title: "Hi, I'm Hemanth",
   subTitle: emoji(
-    "I'm a skilled and passionate software engineer with a track record of delivering cutting-edge solutions. I thrive on problem-solving and writing efficient algorithms. Outside of coding, I enjoy playing badminton."
+    "A dedicated software engineer with a passion for crafting innovative solutions and a knack for problem-solving. I believe that every challenge is an opportunity to learn and grow. My goal is to make a positive impact through technology, and I thrive in collaborative environments where I can contribute my skills while also learning from others. When I'm not coding, I enjoy playing badminton, which keeps my mind sharp and my spirit high."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1mOtS6o57Rhj4BtDBS85H7j8m6kwSnSpB/view?usp=sharing", // Set to empty to hide the button
@@ -45,16 +45,22 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "Software Developer / Product Developer with more than 3 years of work experience in IT industry working with Deloitte",
+    "Software Developer   with more than 3 years of work experience in IT industry working with Deloitte",
   skills: [
     emoji(
-      "⚡  Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "💻 Craft engaging and intuitive front-end experiences for web and mobile applications."
     ),
     emoji(
-      "⚡ Manage different products ownerships and development life cycles"
+      "🚀 Lead product ownership and drive development lifecycles from ideation to launch."
     ),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "🔗 Seamlessly integrate third-party services like Firebase, AWS, and Digital Ocean for robust solutions."
+    ),
+    emoji(
+      "⚡ Optimize application performance and ensure responsive design for an exceptional user experience."
+    ),
+    emoji(
+      "🤝 Collaborate effectively with cross-functional teams to turn innovative ideas into reality."
     )
   ],
 
@@ -123,10 +129,10 @@ const educationInfo = {
       schoolName: "University of Texas at Dallas",
       logo: require("./assets/images/Daco_5186041.png"),
       subHeader: "Master of Science in Information Technology and Management",
-      duration: "January 2023 - August 2024",
+      duration: "January 2023 - May 2025",
       desc: "Dedicated and high-achieving student boasting a stellar 4.0 GPA while concurrently excelling in the role of Graduate Teaching Assistant",
       descBullets: [
-        "Object Oriented Programming in Python, Database Foundations for Business Analytics,System Analysis and Project Management,Advanced Statistics for Data Science,Information Technology Audit and Risk Management, International Business Management, Customer Relationship Management with Salesforce, AWS Cloud Solution Architecture "
+        "Data structures and algorithms,Object Oriented Programming in Python, Database Foundations for Business Analytics,System Analysis and Project Management"
       ]
     },
 
@@ -149,27 +155,20 @@ const techStack = {
   experience: [
     {
       Stack: "Outsytems Developer", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Frontend",
       progressPercentage: "90%"
     },
     {
-      Stack: "React",
-      progressPercentage: "90%"
-    },
-    {
       Stack: "Backend",
-      progressPercentage: "80%"
+      progressPercentage: "70%"
     },
+
     {
-      Stack: "Node.js",
-      progressPercentage: "80%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "90%"
+      Stack: "DSA",
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -229,34 +228,62 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Fun Projects",
+  subtitle: "Few projects built by me ",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/amazon.png"),
+      projectName: "Amazon-clone",
+      projectDesc:
+        "I built an Amazon.com clone from the ground up using only vanilla JavaScript, HTML, and CSS! Fully responsive and packed with features, it’s designed to give you that authentic Amazon experience—best enjoyed on a big screen for the full effect!",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://amazon-clone-by-hemanth.vercel.app/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/hangman1.jpeg"),
+      projectName: "Hangman game",
+      projectDesc:
+        "This is a fun Hangman game where you get to guess popular car brands! Built using React and TypeScript, it’s an interactive way to test your knowledge while enjoying a clean, responsive interface.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://hangman-by-hemanth.vercel.app/"
         }
+      ]
+    },
+    {
+      image: require("./assets/images/weather.avif"),
+      projectName: "Weather app",
+      projectDesc:
+        "I built an awesome weather app using React and Tailwind CSS! It delivers real-time weather updates with a sleek, modern design . Just type in your city and get all the info you need—right at your fingertips!",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://my-weather-by-hemanth.vercel.app/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/todo.avif"),
+      projectName: "Todo-List App",
+      projectDesc:
+        "I created a simple to-do app using React, fully integrated with Firebase for seamless user authentication and password recovery. Stay organized with a smooth, ad-free experience—track your tasks securely and effortlessly!",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://todo-list-by-hemanth.vercel.app/"
+        }
+        //  you can add extra buttons here.
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
