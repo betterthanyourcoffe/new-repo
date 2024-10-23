@@ -26,7 +26,7 @@ const greeting = {
     "A dedicated software engineer with a passion for crafting innovative solutions and a knack for problem-solving. I believe that every challenge is an opportunity to learn and grow. My goal is to make a positive impact through technology, and I thrive in collaborative environments where I can contribute my skills while also learning from others. When I'm not coding, I enjoy playing badminton, which keeps my mind sharp and my spirit high."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1mOtS6o57Rhj4BtDBS85H7j8m6kwSnSpB/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1JnwwZaQxgf5oBIo9lwcEyT8jl3ia_TxR/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
